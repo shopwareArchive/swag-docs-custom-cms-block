@@ -1,9 +1,9 @@
 <?php declare(strict_types=1);
 
-namespace Swag\CustomCMSBlock;
+namespace Swag\CustomCmsBlock;
 
 use Shopware\Core\Framework\Plugin;
 
-class CustomCMSBlock extends Plugin
+class CustomCmsBlock extends Plugin
 {
 }

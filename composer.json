@@ -13,19 +13,19 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "shopware-plugin-class": "Swag\\CustomCMSBlock\\CustomCMSBlock",
+        "shopware-plugin-class": "Swag\\CustomCmsBlock\\CustomCmsBlock",
         "label": {
-            "de-DE": "Label für das Plugin CustomCMSBlock",
-            "en-GB": "Label for the plugin CustomCMSBlock"
+            "de-DE": "Label für das Plugin CustomCmsBlock",
+            "en-GB": "Label for the plugin CustomCmsBlock"
         },
         "description": {
-            "de-DE": "Beschreibung für das Plugin CustomCMSBlock",
-            "en-GB": "Description for the plugin CustomCMSBlock"
+            "de-DE": "Beschreibung für das Plugin CustomCmsBlock",
+            "en-GB": "Description for the plugin CustomCmsBlock"
         }
     },
     "autoload": {
         "psr-4": {
-            "Swag\\CustomCMSBlock\\": "src/"
+            "Swag\\CustomCmsBlock\\": "src/"
         }
     }
 }
