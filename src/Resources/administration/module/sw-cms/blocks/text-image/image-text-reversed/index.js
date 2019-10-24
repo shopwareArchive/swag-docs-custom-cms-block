@@ -1,8 +1,7 @@
-import { Application } from 'src/core/shopware';
 import './component';
 import './preview';
 
-Application.getContainer('service').cmsService.registerCmsBlock({
+Shopware.Service('cmsService').registerCmsBlock({
     name: 'image-text-reversed',
     label: 'Text next to image',
     category: 'text-image',
