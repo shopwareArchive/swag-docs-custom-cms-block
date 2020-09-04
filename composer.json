@@ -29,5 +29,10 @@
         "psr-4": {
             "Swag\\CustomCmsBlock\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swag\\CustomCmsBlock\\Tests\\": "tests/"
+        }
     }
 }

@@ -1,0 +1,29 @@
+{
+    "private": true,
+    "name": "swag-docs-extending-block",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "open": "node_modules/.bin/cypress open",
+        "cypress:run": "./node_modules/.bin/cypress run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/shopware/swag-docs-extending-block.git"
+    },
+    "keywords": [],
+    "author": "shopware AG",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shopware/swag-docs-extending-block/issues"
+    },
+    "homepage": "https://github.com/shopware/swag-docs-extending-block#readme",
+    "dependencies": {
+        "@shopware-ag/e2e-testsuite-platform": "^1.2.9",
+        "cypress": "^4.12.1"
+    }
+}
